@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RizeVisual — клиент для Minecraft 26.2</title>
+<meta name="description" content="RizeVisual — клиент для Minecraft 26.2. 123 модуля, шейдерное небо, меню аккаунтов и собственный интерфейс.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a class="logo" href="#">Rize<span>Visual</span></a>
+  <nav>
+    <a href="#features">Возможности</a>
+    <a href="#install">Установка</a>
+    <a href="#faq">Вопросы</a>
+  </nav>
+  <a class="btn btn-small" href="#download">Скачать</a>
+</header>
+
+<section class="hero" id="download">
+  <div class="hero-text">
+    <p class="tag">Сборка 26.2 · Minecraft 26.2</p>
+    <h1>RizeVisual</h1>
+    <p class="lead">Клиент с переработанным интерфейсом, шейдерным небом и 123 модулями
+      в пяти категориях. Всё настраивается прямо в игре, ничего не нужно ставить отдельно.</p>
+
+    <div class="hero-actions">
+      <!-- ЗАМЕНИТЕ href на прямую ссылку из GitHub Releases -->
+      <a class="btn" href="#">Скачать 1.0.0</a>
+      <a class="btn btn-ghost" href="#install">Как установить</a>
+    </div>
+
+    <dl class="facts">
+      <div><dt>Версия</dt><dd>26.2</dd></div>
+      <div><dt>Модулей</dt><dd>123</dd></div>
+      <div><dt>Размер</dt><dd>35.7&nbsp;МБ</dd></div>
+      <div><dt>Fabric</dt><dd>0.19.3</dd></div>
+    </dl>
+  </div>
+
+  <div class="hero-shot">
+    <img src="shots/menu.png" alt="Главное меню RizeVisual: шейдерное небо, карточка аккаунта, часы с переключателем темы">
+  </div>
+</section>
+
+<section class="section" id="features">
+  <h2>Возможности</h2>
+
+  <div class="cards">
+    <article class="card">
+      <h3>Своё меню</h3>
+      <p>Главное меню, одиночный режим, сетевая игра и меню аккаунтов
+        написаны с нуля: свой фон, карточка текущего аккаунта, часы с
+        переключателем темы и полосой времени суток.</p>
+    </article>
+
+    <article class="card">
+      <h3>Менеджер аккаунтов</h3>
+      <p>Свои ники, избранное, перетаскивание строк, генератор случайного
+        ника и вставка из буфера обмена по <kbd>Ctrl</kbd>+<kbd>V</kbd>.</p>
+    </article>
+
+    <article class="card">
+      <h3>Шейдерное небо</h3>
+      <p>Шесть режимов неба на шейдерах: тьма, каустика, облака, матрица,
+        звёздное небо и переливы. Настраивается скорость, масштаб,
+        интенсивность и прозрачность.</p>
+    </article>
+
+    <article class="card">
+      <h3>Список серверов</h3>
+      <p>Свой экран сетевой игры с пингом, входом по адресу,
+        добавлением, правкой и удалением серверов.</p>
+    </article>
+  </div>
+
+  <h3 class="sub">Модули</h3>
+  <p class="muted">Всего 123 модуля. Ниже — сколько в каждой категории.</p>
+
+  <ul class="cats">
+    <li><span class="cat-name">Render</span><span class="bar"><i style="width:100%"></i></span><span class="cat-num">30</span></li>
+    <li><span class="cat-name">Player</span><span class="bar"><i style="width:93%"></i></span><span class="cat-num">28</span></li>
+    <li><span class="cat-name">Misc</span><span class="bar"><i style="width:80%"></i></span><span class="cat-num">24</span></li>
+    <li><span class="cat-name">Combat</span><span class="bar"><i style="width:77%"></i></span><span class="cat-num">23</span></li>
+    <li><span class="cat-name">Movement</span><span class="bar"><i style="width:60%"></i></span><span class="cat-num">18</span></li>
+  </ul>
+</section>
+
+<section class="section" id="install">
+  <h2>Установка</h2>
+
+  <ol class="steps">
+    <li>
+      <h3>Поставьте Fabric Loader</h3>
+      <p>Версия <strong>0.19.3</strong> или новее. Скачивается с
+        <a href="https://fabricmc.net/use/installer/" target="_blank" rel="noopener">fabricmc.net</a>.</p>
+    </li>
+    <li>
+      <h3>Положите jar в папку mods</h3>
+      <p>Файл <code>delta-client-1.0.0.jar</code> кладёте в
+        <code>.minecraft/mods</code> на Windows. Обычный лаунчер Fabric подойдёт.</p>
+    </li>
+    <li>
+      <h3>Запустите Minecraft 26.2</h3>
+      <p>В списке версий должен появиться профиль с установленным Fabric.
+        Запускайте его, а не ванильный.</p>
+    </li>
+  </ol>
+
+  <div class="note">
+    <strong>Про версии.</strong> Сборка сделана только под Minecraft 26.2.
+    На других версиях клиент не запустится.
+  </div>
+</section>
+
+<section class="section" id="faq">
+  <h2>Вопросы</h2>
+
+  <div class="faq">
+    <details>
+      <summary>Это бесплатно?</summary>
+      <p>Да. Сборка бесплатная, ограничений по времени и подписке нет.</p>
+    </details>
+    <details>
+      <summary>Нужен ли премиум-аккаунт?</summary>
+      <p>Нет. Менеджер аккаунтов работает и на пиратке, и на лицензии —
+        ограничения Mojang тут ни при чём.</p>
+    </details>
+    <details>
+      <summary>Это связанно с Mojang?</summary>
+      <p>Нет. RizeVisual не связан с Mojang и не является официальным
+        продуктом Minecraft. Это сторонний клиент.</p>
+    </details>
+    <details>
+      <summary>Как сообщить об ошибке?</summary>
+      <p>Напишите в Discord или Telegram — ссылки внизу страницы.</p>
+    </details>
+  </div>
+</section>
+
+<section class="section contact">
+  <h2>Связаться</h2>
+  <!-- ЗАМЕНИТЕ href на свои ссылки -->
+  <div class="links">
+    <a class="btn btn-ghost" href="#">Discord</a>
+    <a class="btn btn-ghost" href="#">Telegram</a>
+    <a class="btn btn-ghost" href="#">GitHub</a>
+  </div>
+</section>
+
+<footer>
+  <p>RizeVisual не связан с Mojang. Не является официальным продуктом Minecraft.</p>
+  <p class="muted">RizeVisual  -  Minecraft 26.2</p>
+</footer>
+
+</body>
+</html>
